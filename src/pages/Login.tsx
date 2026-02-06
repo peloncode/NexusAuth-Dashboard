@@ -11,8 +11,7 @@ const Login = () => {
       provider: "github",
       options: {
         // CAMBIO 1: Redirigimos explícitamente a /dashboard
-        redirectTo: "http://localhost:5173/dashboard",
-      },
+        redirectTo: "https://nexus-auth-dashboard.vercel.app/dashboard",
     });
 
     if (error) {
